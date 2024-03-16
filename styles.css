@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Krona One', sans-serif;
+	background-color: black;
+}
+
+main{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 50px;
+	margin-top: 60px;
+}
+
+
+section{
+   max-width: 615px;
+   min-height: 482px;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   align-items: center;
+   justify-content: center;
+   gap:40px;
+   margin: 20px;
+  
+}
+
+h1{
+	color: #F6F6F6;
+	text-align: start;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 56px;
+}
+
+strong{
+	color: #22D4FD;
+	font-size: 37px;
+	font-weight: 400;
+	line-height: 56px;	
+}
+
+p{ 
+	font-family: 'Montserrat', sans-serif;
+	color: #F6F6F6;
+	text-align: justify;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 36px;
+}
+
+.btns {
+	min-width: 300px;
+	max-width: 700px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	gap:10px;
+	
+}
+
+.btns a{
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 280px;
+	height: 79px;
+	padding: 16px;
+	border-radius: 16px;
+	color: black;
+    background-color: #22D4FD;
+	text-align: center;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 600;
+
+}
+
+.btns a:hover{
+	opacity: 0.7;
+}
+
+.perfil{
+	display: block;
+	max-width: 467px;
+	max-height: 532px;
+	margin: 20px;
+}
+img{
+	width: 100%;
+}
+
+/**
+ * FIGMA DO PROJETO:
+ * https://www.figma.com/file/dRdkkewTSz9Xu1TXoQkW0u/Portfolio---Curso-1?type=design&node-id=0-1&mode=design&t=5qBL2uEfaekXPcGb-0
+ */
